@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Matiwos Kebede · Offline‑first Developer</title>
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Fira+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Sticky Navigation -->
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">MK</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#opensource">Open Source</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero / Home (updated with mobile dev & offline-first focus) -->
+<header id="home" class="hero">
+  <div class="hero-grid">
+    <div class="hero-content">
+      <span class="hero-badge"><i class="fas fa-mobile-alt"></i> Mobile Developer · Problem Solver</span>
+      <h1>Matiwos Kebede</h1>
+      <div class="hero-sub">Aspiring Software Engineer & offline‑first builder</div>
+      <p class="hero-desc">
+        Building practical tools that work <strong>anywhere, anytime</strong> — even without internet. 
+        Focused on education, knowledge organization, and lightweight Android apps.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary"><i class="fas fa-arrow-down"></i> Explore work</a>
+        <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Contact</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="https://portal.astu.edu.et/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMkNiQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--66a6f39c60202d06eff79355e4e9d27f233867dd/IMG_20231116_214105_966~3.jpg" alt="Matiwos Kebede profile" />
+    </div>
+  </div>
+</header>
+
+<!-- About Section (Mission-driven, offline-first philosophy) -->
+<section id="about" class="section reveal">
+  <h2 class="section-title">About me</h2>
+  <div class="about-text">
+    <p style="font-size:1.6rem; font-weight:700; margin-bottom:0.5rem;">👨‍💻 Matiwos Kebede</p>
+    <p style="font-size:1.1rem; color:var(--text-soft);"><i class="fas fa-map-pin"></i> Adama Science and Technology University (ASTU), Ethiopia</p>
+    
+    <p style="margin-top:1.5rem;">I'm a passionate Software Engineering student who believes <strong>software should empower, not overwhelm</strong>. 
+    I build <strong>practical, offline-friendly tools</strong> that make a real difference — especially in education and knowledge organization.</p>
+    
+    <div class="mission-block">
+      <i class="fas fa-bullseye" style="color:var(--accent); margin-right:10px;"></i>
+      <strong>My mission:</strong> create software that is <br/>
+      🔧 Practical · 📱 Offline-first · 💡 Deeply thought out · 🌍 Impactful
+    </div>
+    
+    <p>Every line of code I write aims to make technology more <strong>accessible, lightweight, and usable</strong> — even without constant internet access. 
+    Whether it's a CLI study organizer or an Android utility, I focus on solving real problems with clean, maintainable code.</p>
+    
+    <div style="margin-top:1.8rem; display:flex; gap:1rem; flex-wrap:wrap;">
+      <span style="background:var(--accent-light); padding:0.3rem 1.2rem; border-radius:30px;"><i class="fas fa-graduation-cap"></i> BSc Software Eng. (2026)</span>
+      <span style="background:var(--accent-light); padding:0.3rem 1.2rem; border-radius:30px;"><i class="fas fa-code-branch"></i> Open source contributor</span>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section (exact tech stack from markdown) -->
+<section id="skills" class="section reveal">
+  <h2 class="section-title">Tech stack & tools</h2>
+  <div class="skills-cloud">
+    <span class="skill-chip"><i class="fab fa-java"></i> Java</span>
+    <span class="skill-chip"><i class="fab fa-python"></i> Python</span>
+    <span class="skill-chip"><i class="fas fa-code"></i> C++</span>
+    <span class="skill-chip"><i class="fas fa-terminal"></i> Bash</span>
+    <span class="skill-chip"><i class="fab fa-html5"></i> HTML</span>
+    <span class="skill-chip"><i class="fab fa-js-square"></i> JavaScript</span>
+    <span class="skill-chip"><i class="fab fa-css3-alt"></i> CSS</span>
+    <span class="skill-chip"><i class="fas fa-database"></i> MySQL</span>
+    <span class="skill-chip"><i class="fas fa-database"></i> SQLite</span>
+    <span class="skill-chip"><i class="fab fa-android"></i> Android Studio</span>
+    <span class="skill-chip"><i class="fas fa-mobile-alt"></i> AIDE</span>
+    <span class="skill-chip"><i class="fab fa-linux"></i> Linux</span>
+    <span class="skill-chip"><i class="fab fa-git-alt"></i> Git & GitHub</span>
+  </div>
+  <p style="margin-top:2rem; color:var(--text-soft);"><i class="fas fa-lightbulb"></i> Currently exploring: Advanced Android (offline-first), Clean Architecture, DSA, and Full‑Stack foundations.</p>
+</section>
+
+<!-- Projects Section (kept relevant, plus offline emphasis) -->
+<section id="projects" class="section reveal">
+  <h2 class="section-title">Featured projects</h2>
+  <div class="project-grid">
+    <div class="project-card">
+      <div class="project-icon"><i class="fas fa-calendar-alt"></i></div>
+      <h3>FiboCLI</h3>
+      <p>Python CLI study organizer with reminders, progress tracking, and smart scheduling — works entirely offline.</p>
+      <a href="https://github.com/MatiwosKebede/fibocli" target="_blank" class="card-link">View on GitHub <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="project-card">
+      <div class="project-icon"><i class="fas fa-search"></i></div>
+      <h3>Aflegnu</h3>
+      <p>Lost & Found system (INSA project) — report and search missing people/items with clean, offline-capable backend.</p>
+      <a href="https://github.com/MatiwosKebede/afalgugn" target="_blank" class="card-link">View on GitHub <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="project-card">
+      <div class="project-icon"><i class="fas fa-network-wired"></i></div>
+      <h3>Port Scanner</h3>
+      <p>Python network utility for scanning open ports, enhancing security awareness and network hygiene.</p>
+      <a href="https://github.com/MatiwosKebede/Port-scanner" target="_blank" class="card-link">View on GitHub <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="project-card">
+      <div class="project-icon"><i class="fas fa-laptop-code"></i></div>
+      <h3>Portfolio v2</h3>
+      <p>This modern portfolio — glassmorphism, responsive design, and a focus on offline-first philosophy.</p>
+      <a href="https://github.com/MatiwosKebede/portfolio" target="_blank" class="card-link">View on GitHub <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- Open Source Contribution -->
+<section id="opensource" class="section reveal">
+  <h2 class="section-title">Open Source</h2>
+  <div class="oss-card">
+    <span class="oss-badge"><i class="fab fa-github"></i> exo · AI cluster</span>
+    <h3>exo (exo labs)</h3>
+    <p style="font-size:1.2rem; margin:1rem 0 1.5rem;">Contributed to <strong>exo</strong> — an open-source system connecting multiple devices into a distributed AI cluster. Enables running large models across devices with performance scaling and low-latency communication.</p>
+    <a href="https://github.com/exo-explore/exo" target="_blank" style="font-weight:700; color:var(--accent); text-decoration:none; display:inline-flex; align-items:center; gap:10px;">explore exo <i class="fas fa-external-link-alt"></i></a>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section reveal">
+  <h2 class="section-title">Get in touch</h2>
+  <div class="contact-flex">
+    <div class="contact-info">
+      <h3 style="margin-bottom:1.5rem; font-size:1.8rem;"><i class="fas fa-address-card"></i> Connect</h3>
+      <p style="margin-bottom:1rem;"><i class="fas fa-envelope" style="width:28px;"></i> <a href="mailto:matiwoskebede01@gmail.com">matiwoskebede01@gmail.com</a></p>
+      <p style="margin-bottom:1rem;"><i class="fab fa-github" style="width:28px;"></i> <a href="https://github.com/matiwoskebede" target="_blank">github.com/matiwoskebede</a></p>
+      <p style="margin-bottom:1rem;"><i class="fab fa-linkedin" style="width:28px;"></i> <a href="#">linkedin.com/in/matiwos</a></p>
+      <p><i class="fas fa-map-marker-alt"></i> Adama, Ethiopia</p>
+      <div style="margin-top:2.5rem;">
+        <p style="font-weight:600;">📄 Resume available upon request</p>
+      </div>
+    </div>
+    <div class="contact-form">
+      <form id="contactForm">
+        <div class="form-group">
+          <input type="text" id="name" placeholder="Your name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" placeholder="Email address" required>
+        </div>
+        <div class="form-group">
+          <textarea id="message" rows="4" placeholder="Tell me about your project or idea..." required></textarea>
+        </div>
+        <button type="submit"><i class="fas fa-paper-plane"></i> Send message</button>
+        <div id="form-feedback"></div>
+      </form>
+    </div>
+  </div>
+  
+  <!-- Signature quote -->
+  <div class="quote-block">
+    <i class="fas fa-quote-left" style="color:var(--accent); opacity:0.6; margin-right:8px;"></i> 
+    I build tools that simplify learning, boost productivity, and work even when the internet is inaccessible.
+    <i class="fas fa-quote-right" style="color:var(--accent); opacity:0.6; margin-left:8px;"></i>
+    <div style="margin-top:10px; font-weight:600;">— Matiwos Kebede</div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div>© 2026 Matiwos Kebede · Offline-first developer portfolio</div>
+  <div class="social-links">
+    <a href="https://github.com/matiwoskebede" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="#"><i class="fab fa-x-twitter"></i></a>
+    <a href="mailto:matiwoskebede01@gmail.com"><i class="fas fa-envelope"></i></a>
+  </div>
+</footer>
+
+<script src="script.js">
+</script>
+</body>
+</html>
